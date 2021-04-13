@@ -1,9 +1,9 @@
-const express=require('express')
+const express = require('express')
 const path = require('path')
 
-const app=express()
+const app = express()
 
-const webRoute=require("./controller/webRoute")
+const webRoute = require("./controller/webRoute")
 
 app.set('view engine','ejs')
 app.set('views',path.join(__dirname,"pages"))

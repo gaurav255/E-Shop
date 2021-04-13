@@ -33,6 +33,37 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+   
+    <style>
+        .dropdown-menu2
+        {
+            display:none;
+        }
+        .dropdown-menu1:hover .dropdown-menu2
+        {
+            display:block;
+            position:absolute;
+            margin-left:199px;
+            margin-top:-50px;
+            width:200px;
+            background-color:white;
+        }
+        
+        .dropdown-menu1:hover .dropdown-menu2 li
+        {
+            border-bottom:1px solid #E2E2E2;
+            border-top:1px solid #E2E2E2;
+            height:50px;
+            padding:10px;
+            padding-left:20px;
+        }
+        .fa-angle-right
+        {
+            float:right;
+            padding-top:5px;
+        }
+    
+    </style>
 
 </head>
 
@@ -47,28 +78,28 @@
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
                                 <li>
-                                    <i class="fa fa-opencart" ></i> Off 10%! Shop Now Man
+                                    <i class="fab fa-opencart" ></i> Off 10%! Shop Now Man
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> 50% - 80% off on Fashion
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> Off 50%! Shop Now
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> Off 10%! Shop Now Man
+                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> 50% - 80% off on Fashion
+                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
                                 </li>
                                 <li>
-                                    <i class="fa fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
+                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
                                 </li>
                                 <li>
-                                    <i class="fas fa-opencart"></i> Off 50%! Shop Now
+                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
                                 </li>
                             </ul>
                         </div>
@@ -77,18 +108,16 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="custom-select-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-                        <option><i class="fa fa-rupee" ></i> Rs</option>
+                        <option>₹ Rs</option>
                         <option>$ USD</option>
-                        <option>€ EUR</option>
                     </select>
                     </div>
                     <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +11 900 800 100</a></p>
+                        <p>Call US :- <a href="#"> +91 98765 43210</a></p>
                     </div>
                     <div class="our-link">
                         <ul>
                             <li><a href="/account">My Account</a></li>
-                            <li><a href="/location">Our location</a></li>
                             <li><a href="/contact">Contact Us</a></li>
                         </ul>
                     </div>
@@ -117,70 +146,41 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
-                        <li class="dropdown megamenu-fw">
+                        <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="/shop">Jackets</a></li>
-                                                    <li><a href="/shop">Shirts</a></li>
-                                                    <li><a href="/shop">Sweaters & Cardigans</a></li>
-                                                    <li><a href="/shop">T-shirts</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="/shop">Swimwear</a></li>
-                                                    <li><a href="/shop">Skirts</a></li>
-                                                    <li><a href="/shop">Jeans</a></li>
-                                                    <li><a href="/shop">Trousers</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="/shop">Top Wear</a></li>
-                                                    <li><a href="/shop">Party wear</a></li>
-                                                    <li><a href="/shop">Bottom Wear</a></li>
-                                                    <li><a href="/shop">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Footwear</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="/shop">Chappals</a></li>
-                                                    <li><a href="/shop">Loafers</a></li>
-                                                    <li><a href="/shop">Sport Shoes</a></li>
-                                                    <li><a href="/shop">Formals</a></li>
-                                                    <li><a href="/shop">Sneakers</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <!-- end col-3 -->
-                                    </div>
-                                    <!-- end row -->
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-menu1"><a href="/shop">Men's Wear<i class="fa fa-angle-right"></i></a>
+                                    <ul class="dropdown-menu2">
+                                        <li><a href="/shop">Jackets</a></li>
+                                        <li><a href="/shop">Shirts</a></li>
+                                        <li><a href="/shop">Jeans</a></li>
+                                        <li><a href="/shop">T-shirts</a></li>
+                                        <li><a href="/shop">Trousers</a></li>
+                                        <li><a href="/shop">Blazers</a></li>
+                                        <li><a href="/shop">Sweaters & cardigans</a></li>
+                                    </ul>
                                 </li>
+                                <li class="dropdown-menu1"><a href="/shop">Women's Wear<i class="fa fa-angle-right"></i></a>
+                                    <ul class="dropdown-menu2">
+                                        <li><a href="/shop">Tops</a></li>
+                                        <li><a href="/shop">Shirts</a></li>
+                                        <li><a href="/shop">Jeans</a></li>
+                                        <li><a href="/shop">Skirts</a></li>
+                                        <li><a href="/shop">Trousers</a></li>
+                                        <li><a href="/shop">Suits</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/shop">Shoes</a></li>
+                                <li><a href="/shop">Bags</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
                             <ul class="dropdown-menu">
                                 <li><a href="/cart">Cart</a></li>
-                                <li><a href="/my-account">My Account</a></li>
-                                <li><a href="/wishlist/">Wishlist</a></li>
+                                <li><a href="/checkout">Checkout</a></li>
+                                <li><a href="/account">My Account</a></li>
+                                <li><a href="/wishlist">Wishlist</a></li>
                                 <li><a href="/shop-detail">Shop Detail</a></li>
                             </ul>
                         </li>
